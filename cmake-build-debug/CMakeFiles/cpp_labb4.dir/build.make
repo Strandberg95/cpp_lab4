@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
+CMAKE_COMMAND = /cygdrive/c/Users/stran/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
+RM = /cygdrive/c/Users/stran/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Strandberg95/CLionProjects/cpp_labb4
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/stran/OneDrive/Documents/GitHub/cpp_lab4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Strandberg95/CLionProjects/cpp_labb4/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/stran/OneDrive/Documents/GitHub/cpp_lab4/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cpp_labb4.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/cpp_labb4.dir/flags.make
 
 CMakeFiles/cpp_labb4.dir/main.cpp.o: CMakeFiles/cpp_labb4.dir/flags.make
 CMakeFiles/cpp_labb4.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Strandberg95/CLionProjects/cpp_labb4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp_labb4.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_labb4.dir/main.cpp.o -c /Users/Strandberg95/CLionProjects/cpp_labb4/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/stran/OneDrive/Documents/GitHub/cpp_lab4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp_labb4.dir/main.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_labb4.dir/main.cpp.o -c /cygdrive/c/Users/stran/OneDrive/Documents/GitHub/cpp_lab4/main.cpp
 
 CMakeFiles/cpp_labb4.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_labb4.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Strandberg95/CLionProjects/cpp_labb4/main.cpp > CMakeFiles/cpp_labb4.dir/main.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/stran/OneDrive/Documents/GitHub/cpp_lab4/main.cpp > CMakeFiles/cpp_labb4.dir/main.cpp.i
 
 CMakeFiles/cpp_labb4.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_labb4.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Strandberg95/CLionProjects/cpp_labb4/main.cpp -o CMakeFiles/cpp_labb4.dir/main.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/stran/OneDrive/Documents/GitHub/cpp_lab4/main.cpp -o CMakeFiles/cpp_labb4.dir/main.cpp.s
 
 CMakeFiles/cpp_labb4.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/cpp_labb4.dir/main.cpp.o.provides.build: CMakeFiles/cpp_labb4.dir/mai
 
 CMakeFiles/cpp_labb4.dir/Assignment_1/Sorting.cpp.o: CMakeFiles/cpp_labb4.dir/flags.make
 CMakeFiles/cpp_labb4.dir/Assignment_1/Sorting.cpp.o: ../Assignment\ 1/Sorting.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Strandberg95/CLionProjects/cpp_labb4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpp_labb4.dir/Assignment_1/Sorting.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_labb4.dir/Assignment_1/Sorting.cpp.o -c "/Users/Strandberg95/CLionProjects/cpp_labb4/Assignment 1/Sorting.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/stran/OneDrive/Documents/GitHub/cpp_lab4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpp_labb4.dir/Assignment_1/Sorting.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_labb4.dir/Assignment_1/Sorting.cpp.o -c "/cygdrive/c/Users/stran/OneDrive/Documents/GitHub/cpp_lab4/Assignment 1/Sorting.cpp"
 
 CMakeFiles/cpp_labb4.dir/Assignment_1/Sorting.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_labb4.dir/Assignment_1/Sorting.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Strandberg95/CLionProjects/cpp_labb4/Assignment 1/Sorting.cpp" > CMakeFiles/cpp_labb4.dir/Assignment_1/Sorting.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/stran/OneDrive/Documents/GitHub/cpp_lab4/Assignment 1/Sorting.cpp" > CMakeFiles/cpp_labb4.dir/Assignment_1/Sorting.cpp.i
 
 CMakeFiles/cpp_labb4.dir/Assignment_1/Sorting.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_labb4.dir/Assignment_1/Sorting.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Strandberg95/CLionProjects/cpp_labb4/Assignment 1/Sorting.cpp" -o CMakeFiles/cpp_labb4.dir/Assignment_1/Sorting.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/stran/OneDrive/Documents/GitHub/cpp_lab4/Assignment 1/Sorting.cpp" -o CMakeFiles/cpp_labb4.dir/Assignment_1/Sorting.cpp.s
 
 CMakeFiles/cpp_labb4.dir/Assignment_1/Sorting.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/cpp_labb4.dir/Assignment_1/Sorting.cpp.o.provides.build: CMakeFiles/c
 
 CMakeFiles/cpp_labb4.dir/Assignment_2/Sorting.cpp.o: CMakeFiles/cpp_labb4.dir/flags.make
 CMakeFiles/cpp_labb4.dir/Assignment_2/Sorting.cpp.o: ../Assignment\ 2/Sorting.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Strandberg95/CLionProjects/cpp_labb4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cpp_labb4.dir/Assignment_2/Sorting.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_labb4.dir/Assignment_2/Sorting.cpp.o -c "/Users/Strandberg95/CLionProjects/cpp_labb4/Assignment 2/Sorting.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/stran/OneDrive/Documents/GitHub/cpp_lab4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cpp_labb4.dir/Assignment_2/Sorting.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_labb4.dir/Assignment_2/Sorting.cpp.o -c "/cygdrive/c/Users/stran/OneDrive/Documents/GitHub/cpp_lab4/Assignment 2/Sorting.cpp"
 
 CMakeFiles/cpp_labb4.dir/Assignment_2/Sorting.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_labb4.dir/Assignment_2/Sorting.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Strandberg95/CLionProjects/cpp_labb4/Assignment 2/Sorting.cpp" > CMakeFiles/cpp_labb4.dir/Assignment_2/Sorting.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/stran/OneDrive/Documents/GitHub/cpp_lab4/Assignment 2/Sorting.cpp" > CMakeFiles/cpp_labb4.dir/Assignment_2/Sorting.cpp.i
 
 CMakeFiles/cpp_labb4.dir/Assignment_2/Sorting.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_labb4.dir/Assignment_2/Sorting.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Strandberg95/CLionProjects/cpp_labb4/Assignment 2/Sorting.cpp" -o CMakeFiles/cpp_labb4.dir/Assignment_2/Sorting.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/stran/OneDrive/Documents/GitHub/cpp_lab4/Assignment 2/Sorting.cpp" -o CMakeFiles/cpp_labb4.dir/Assignment_2/Sorting.cpp.s
 
 CMakeFiles/cpp_labb4.dir/Assignment_2/Sorting.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/cpp_labb4.dir/Assignment_2/Sorting.cpp.o.provides.build: CMakeFiles/c
 
 CMakeFiles/cpp_labb4.dir/Assignment_2/PersonReg.cpp.o: CMakeFiles/cpp_labb4.dir/flags.make
 CMakeFiles/cpp_labb4.dir/Assignment_2/PersonReg.cpp.o: ../Assignment\ 2/PersonReg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Strandberg95/CLionProjects/cpp_labb4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cpp_labb4.dir/Assignment_2/PersonReg.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_labb4.dir/Assignment_2/PersonReg.cpp.o -c "/Users/Strandberg95/CLionProjects/cpp_labb4/Assignment 2/PersonReg.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/stran/OneDrive/Documents/GitHub/cpp_lab4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cpp_labb4.dir/Assignment_2/PersonReg.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_labb4.dir/Assignment_2/PersonReg.cpp.o -c "/cygdrive/c/Users/stran/OneDrive/Documents/GitHub/cpp_lab4/Assignment 2/PersonReg.cpp"
 
 CMakeFiles/cpp_labb4.dir/Assignment_2/PersonReg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_labb4.dir/Assignment_2/PersonReg.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Strandberg95/CLionProjects/cpp_labb4/Assignment 2/PersonReg.cpp" > CMakeFiles/cpp_labb4.dir/Assignment_2/PersonReg.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/stran/OneDrive/Documents/GitHub/cpp_lab4/Assignment 2/PersonReg.cpp" > CMakeFiles/cpp_labb4.dir/Assignment_2/PersonReg.cpp.i
 
 CMakeFiles/cpp_labb4.dir/Assignment_2/PersonReg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_labb4.dir/Assignment_2/PersonReg.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Strandberg95/CLionProjects/cpp_labb4/Assignment 2/PersonReg.cpp" -o CMakeFiles/cpp_labb4.dir/Assignment_2/PersonReg.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/stran/OneDrive/Documents/GitHub/cpp_lab4/Assignment 2/PersonReg.cpp" -o CMakeFiles/cpp_labb4.dir/Assignment_2/PersonReg.cpp.s
 
 CMakeFiles/cpp_labb4.dir/Assignment_2/PersonReg.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/cpp_labb4.dir/Assignment_2/PersonReg.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/cpp_labb4.dir/Assignment_2/Person.cpp.o: CMakeFiles/cpp_labb4.dir/flags.make
 CMakeFiles/cpp_labb4.dir/Assignment_2/Person.cpp.o: ../Assignment\ 2/Person.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Strandberg95/CLionProjects/cpp_labb4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cpp_labb4.dir/Assignment_2/Person.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_labb4.dir/Assignment_2/Person.cpp.o -c "/Users/Strandberg95/CLionProjects/cpp_labb4/Assignment 2/Person.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/stran/OneDrive/Documents/GitHub/cpp_lab4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cpp_labb4.dir/Assignment_2/Person.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_labb4.dir/Assignment_2/Person.cpp.o -c "/cygdrive/c/Users/stran/OneDrive/Documents/GitHub/cpp_lab4/Assignment 2/Person.cpp"
 
 CMakeFiles/cpp_labb4.dir/Assignment_2/Person.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_labb4.dir/Assignment_2/Person.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Strandberg95/CLionProjects/cpp_labb4/Assignment 2/Person.cpp" > CMakeFiles/cpp_labb4.dir/Assignment_2/Person.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/stran/OneDrive/Documents/GitHub/cpp_lab4/Assignment 2/Person.cpp" > CMakeFiles/cpp_labb4.dir/Assignment_2/Person.cpp.i
 
 CMakeFiles/cpp_labb4.dir/Assignment_2/Person.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_labb4.dir/Assignment_2/Person.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Strandberg95/CLionProjects/cpp_labb4/Assignment 2/Person.cpp" -o CMakeFiles/cpp_labb4.dir/Assignment_2/Person.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/stran/OneDrive/Documents/GitHub/cpp_lab4/Assignment 2/Person.cpp" -o CMakeFiles/cpp_labb4.dir/Assignment_2/Person.cpp.s
 
 CMakeFiles/cpp_labb4.dir/Assignment_2/Person.cpp.o.requires:
 
@@ -188,18 +188,18 @@ cpp_labb4_OBJECTS = \
 # External object files for target cpp_labb4
 cpp_labb4_EXTERNAL_OBJECTS =
 
-cpp_labb4: CMakeFiles/cpp_labb4.dir/main.cpp.o
-cpp_labb4: CMakeFiles/cpp_labb4.dir/Assignment_1/Sorting.cpp.o
-cpp_labb4: CMakeFiles/cpp_labb4.dir/Assignment_2/Sorting.cpp.o
-cpp_labb4: CMakeFiles/cpp_labb4.dir/Assignment_2/PersonReg.cpp.o
-cpp_labb4: CMakeFiles/cpp_labb4.dir/Assignment_2/Person.cpp.o
-cpp_labb4: CMakeFiles/cpp_labb4.dir/build.make
-cpp_labb4: CMakeFiles/cpp_labb4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Strandberg95/CLionProjects/cpp_labb4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable cpp_labb4"
+cpp_labb4.exe: CMakeFiles/cpp_labb4.dir/main.cpp.o
+cpp_labb4.exe: CMakeFiles/cpp_labb4.dir/Assignment_1/Sorting.cpp.o
+cpp_labb4.exe: CMakeFiles/cpp_labb4.dir/Assignment_2/Sorting.cpp.o
+cpp_labb4.exe: CMakeFiles/cpp_labb4.dir/Assignment_2/PersonReg.cpp.o
+cpp_labb4.exe: CMakeFiles/cpp_labb4.dir/Assignment_2/Person.cpp.o
+cpp_labb4.exe: CMakeFiles/cpp_labb4.dir/build.make
+cpp_labb4.exe: CMakeFiles/cpp_labb4.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/stran/OneDrive/Documents/GitHub/cpp_lab4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable cpp_labb4.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpp_labb4.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/cpp_labb4.dir/build: cpp_labb4
+CMakeFiles/cpp_labb4.dir/build: cpp_labb4.exe
 
 .PHONY : CMakeFiles/cpp_labb4.dir/build
 
@@ -216,6 +216,6 @@ CMakeFiles/cpp_labb4.dir/clean:
 .PHONY : CMakeFiles/cpp_labb4.dir/clean
 
 CMakeFiles/cpp_labb4.dir/depend:
-	cd /Users/Strandberg95/CLionProjects/cpp_labb4/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Strandberg95/CLionProjects/cpp_labb4 /Users/Strandberg95/CLionProjects/cpp_labb4 /Users/Strandberg95/CLionProjects/cpp_labb4/cmake-build-debug /Users/Strandberg95/CLionProjects/cpp_labb4/cmake-build-debug /Users/Strandberg95/CLionProjects/cpp_labb4/cmake-build-debug/CMakeFiles/cpp_labb4.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cygdrive/c/Users/stran/OneDrive/Documents/GitHub/cpp_lab4/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/stran/OneDrive/Documents/GitHub/cpp_lab4 /cygdrive/c/Users/stran/OneDrive/Documents/GitHub/cpp_lab4 /cygdrive/c/Users/stran/OneDrive/Documents/GitHub/cpp_lab4/cmake-build-debug /cygdrive/c/Users/stran/OneDrive/Documents/GitHub/cpp_lab4/cmake-build-debug /cygdrive/c/Users/stran/OneDrive/Documents/GitHub/cpp_lab4/cmake-build-debug/CMakeFiles/cpp_labb4.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cpp_labb4.dir/depend
 

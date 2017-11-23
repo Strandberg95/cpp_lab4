@@ -20,8 +20,8 @@ public:
     string getName();
     string getAddress();
     virtual void print();
-    bool operator<(const Person& that);
     virtual ~Person();
+    bool operator<(const Person& that);
 };
 
 #endif //CPP_LABB4_PERSON_H

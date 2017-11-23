@@ -31,8 +31,9 @@ void Person :: print()
 
 }
 
-bool Person :: operator<(const Person& that){
-    return this->name > that.name;
+bool Person :: operator<(const Person& that) {
+    //cout << "comparing " << this->name << " With: " << that.name << " : " << (this->name < that.name) << endl;
+    return this->name < that.name;
 }
 
 Person :: ~Person()

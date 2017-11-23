@@ -5,7 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpp_labb4.dir/Assignment_2/PersonReg.cpp.o"
   "CMakeFiles/cpp_labb4.dir/Assignment_2/Person.cpp.o"
   "cpp_labb4.pdb"
-  "cpp_labb4"
+  "cpp_labb4.exe"
+  "libcpp_labb4.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

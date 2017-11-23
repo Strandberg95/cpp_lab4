@@ -22,7 +22,6 @@ public:
     PersonReg(int size);
     Person* begin();
     Person* end();
-    void personSort();
     void addPerson(const Person* person);
     void addPerson(const Person& person);
     void removePerson(Person* person);

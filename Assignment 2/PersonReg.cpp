@@ -100,16 +100,15 @@ PersonReg :: ~PersonReg()
     delete[] this->persons;
 }
 
-Person* PersonReg :: begin() {
+Person* PersonReg :: begin()
+{
     return persons;
 }
 
-Person* PersonReg :: end(){
+Person* PersonReg :: end()
+{
     return persons + this->index;
 }
 
-void PersonReg :: personSort(){
-    sort(this->begin(),this->end());
-}
 
 
