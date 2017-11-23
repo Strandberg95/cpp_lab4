@@ -1,0 +1,54 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Strandberg95/CLionProjects/cpp_labb4/Assignment 1/Sorting.cpp
+Sorting.h
+/Users/Strandberg95/CLionProjects/cpp_labb4/Assignment 1/Sorting.h
+iostream
+-
+vector
+/Users/Strandberg95/CLionProjects/cpp_labb4/Assignment 1/vector
+
+/Users/Strandberg95/CLionProjects/cpp_labb4/Assignment 1/Sorting.h
+cstddef
+-
+
+/Users/Strandberg95/CLionProjects/cpp_labb4/Assignment 2/Person.cpp
+iostream
+-
+Person.h
+/Users/Strandberg95/CLionProjects/cpp_labb4/Assignment 2/Person.h
+
+/Users/Strandberg95/CLionProjects/cpp_labb4/Assignment 2/Person.h
+string
+-
+
+/Users/Strandberg95/CLionProjects/cpp_labb4/Assignment 2/PersonReg.cpp
+PersonReg.h
+/Users/Strandberg95/CLionProjects/cpp_labb4/Assignment 2/PersonReg.h
+
+/Users/Strandberg95/CLionProjects/cpp_labb4/Assignment 2/PersonReg.h
+string
+-
+Person.h
+/Users/Strandberg95/CLionProjects/cpp_labb4/Assignment 2/Person.h
+
+/Users/Strandberg95/CLionProjects/cpp_labb4/Assignment 2/Sorting.cpp
+Sorting.h
+/Users/Strandberg95/CLionProjects/cpp_labb4/Assignment 2/Sorting.h
+
+/Users/Strandberg95/CLionProjects/cpp_labb4/Assignment 2/Sorting.h
+
+/Users/Strandberg95/CLionProjects/cpp_labb4/main.cpp
+iostream
+-
+Assignment 1/Sorting.h
+/Users/Strandberg95/CLionProjects/cpp_labb4/Assignment 1/Sorting.h
+Assignment 2/PersonReg.h
+/Users/Strandberg95/CLionProjects/cpp_labb4/Assignment 2/PersonReg.h
+
